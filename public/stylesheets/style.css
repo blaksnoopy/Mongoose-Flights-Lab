@@ -1,0 +1,51 @@
+body {
+  font-size: large;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightgray;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+table, th, td {
+  font-size: large;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+#delete {
+  color: red;
+  cursor: pointer;
+}
+
+body > nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 20px 0 30px; */
+}
+
+nav > a {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form, label, option, div {
+  font-size: larger;
+}
+
